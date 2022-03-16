@@ -1,6 +1,7 @@
 # Test-Driven Development
 
-Development method to help you stay in control even if the code complexity exceeds your mental capacity.
+TDD is a development method to help you stay in control while programming 
+even if the code complexity exceeds your mental capacity.
 
 1. Developers write automated tests while they are developing code
 2. Most tests come into place before the application code they check
@@ -16,24 +17,19 @@ Development method to help you stay in control even if the code complexity excee
 
 ## Inner Development Cycle: Test-Code-Refactor
 
+![Test-Code-Refactor Cycle](tcr.png)
+
 1. Add a failing test 
 2. Write just enough code to make the test (and all other tests) succeed
-3. Clean up code:
+3. Clean up code and refactor:
    - Remove duplication
    - Choose good names
    - Introduce abstraction (if really necessary)
 
 
-## The Meta-Process Pattern
+## Session Inbox
 
-1. Think about your next problem
-2. Identify criteria/steps for solving the problem
-3. Tackle one criterion/step after the other
-4. Keep track of open criteria/steps
-5. When all criteria are fulfilled, revisit the solution
-
-
-## Session Inbox: Another Application of the Pattern
+How to structure a programming session without forgetting some of the details.
 
 1. Collect all features / ideas / tests that are necessary 
    to resolve your next programming task
