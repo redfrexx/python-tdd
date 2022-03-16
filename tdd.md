@@ -48,4 +48,9 @@ Development method to help you stay in control even if the code complexity excee
 
 ## Links
 
-- TDD Course (Learn Test Driven Development with Python) using Mocks: [Youtube Video](https://www.youtube.com/watch?v=eAPmXQ0dC7Q)
+- TDD Course (Learn Test Driven Development with Python) using Mocks: 
+  [Youtube Video](https://www.youtube.com/watch?v=eAPmXQ0dC7Q)
+- Intro to Test-Code-Refactor cycle with simple example: 
+  [Article on Rubik's Code](https://rubikscode.net/2021/05/24/test-driven-development-tdd-with-python/)
+- _Testgetriebe Entwicklung: Entschlüsselt_. A free German e-book (42% done) using Groovy as programming language.
+  [E-book on leanpub](https://leanpub.com/tdd-entschluesselt)
