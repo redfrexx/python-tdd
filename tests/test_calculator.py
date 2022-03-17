@@ -33,6 +33,6 @@ def test_sum_of_decimals():
 
 
 def test_cannot_sum_negative_numbers():
-    """Negative number lead to ValueError"""
+    """Negative numbers raise a ValueError"""
     with pytest.raises(ValueError):
         sum_up(3, -1)
