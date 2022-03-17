@@ -2,8 +2,8 @@ from hypothesis import given
 from hypothesis.strategies import integers, lists
 
 
-def reverse(list):
-    clone = list.copy()
+def reverse(a_list: list[int]) -> list[int]:
+    clone = a_list.copy()
     clone.reverse()
     return clone
 
