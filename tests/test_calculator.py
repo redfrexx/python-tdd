@@ -28,7 +28,8 @@ def test_sum_of_several_numbers():
 
 def test_sum_of_decimals():
     """Decimal numbers can be summed up"""
-    assert sum_up(3.1, 5.9, 9.01, 0.04) == pytest.approx(18.05, 0.01)
+    # assert sum_up(3.1, 5.9, 9.01, 0.04) == 18.05 # Fails due to floating point rounding errors
+    assert sum_up(3.1, 5.9, 9.01, 0.04) == pytest.approx(18.05)
 
 
 def test_cannot_sum_negative_numbers():
