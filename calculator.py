@@ -1,6 +1,7 @@
 from functools import reduce
 
-def sum(*addends):
+
+def sum_up(*addends):
     # return reduce(lambda a, b: a + b, addends, 0)
     sum = 0
     for addend in addends:
@@ -9,5 +10,6 @@ def sum(*addends):
         sum += addend
     return sum
 
+
 if __name__ == '__main__':
-    print('3 + 5 =', sum(3, 5))
+    print('3 + 5 =', sum_up(3, 5))
